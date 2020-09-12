@@ -1,3 +1,4 @@
+
 public class Calc { 
     public static void main(Double[] args ) {
     
@@ -6,10 +7,14 @@ public class Calc {
       
     } // main 
    
+    //------check---------------------------------------------------
+
+
     //-------plus---------------------------------------------------
 
-     public static double plus (double num1, double num2) {
+     public static double plus (double num1, double num2) { 
         double sum = num1 + num2;
+        
         return sum;
     }
 
@@ -23,14 +28,14 @@ public class Calc {
 
   //--------times------------------------------------------------------
 
-  public static double times(double num1, double num2) {
-      double sum = num2 * num2;
+  public double times(double num1, double num2) {
+      double sum = (num1 * num2);
       return sum;
   }
   //--------division----------------------------------------------------
 
   public static double division(double num1, double num2) {
-      double sum = num2 / num2;
+      double sum = num1 / num2;
       return sum;
   }
   //-------------------------------------------------------------------
